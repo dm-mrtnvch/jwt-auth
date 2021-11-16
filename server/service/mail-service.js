@@ -1,4 +1,4 @@
-const nodemailer = require("nodemailer")
+const nodemailer = require('nodemailer');
 
 class MailService {
 
@@ -31,4 +31,4 @@ class MailService {
     }
 }
 
-module.exports = new MailService()
+module.exports = new MailService();
